@@ -7,7 +7,7 @@ class GameOver extends Component {
     return(<div>
          <h1>Game Over</h1>
          <h2>Score: {this.props.state.game.score}</h2>
-         <button onClick={()=>this.props.tryAgain()} type="Button">Volver a intentarlo</button>
+         <button onClick={()=>this.props.tryAgain()} type="Button">Try again</button>
      </div>);
  }
 
