@@ -23,7 +23,7 @@ componentDidMount () {
         return(
             <div className="Field">
                 <div className="Field__container">
-                    <div className="Field__container__objective"
+                    <div className="Objective"
                     style={{top:this.props.state.game.objective.top, left:this.props.state.game.objective.left}}
                     
                     onClick={()=>this.props.hit()}></div>

@@ -11,7 +11,6 @@ class App extends Component {
     return (
       <div className="App">
         {this.props.state.game.gameOver ? <GameOver/> : <Field/>}
-        {/* <Field />  */}
       </div>
     );
   }
